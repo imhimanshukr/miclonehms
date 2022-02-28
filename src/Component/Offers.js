@@ -5,7 +5,7 @@ const Offers = ({offer}) =>{
                 {
                     offer.map((item, index) =>(
                         <a href={item.url} alt={`${index} offer`} key={index}>
-                            <img src={item.image} alt="offer image" />
+                            <img src={item.image} alt="offer" />
                         </a>
                     ))
                 }
