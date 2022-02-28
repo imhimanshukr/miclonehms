@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.offer_section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+}
+.offer_section img{
+    margin: 0 1vmax;
+    transition: .3s all ease-in;
+}
+.offer_section img:hover{
+    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
+}

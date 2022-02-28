@@ -1,0 +1,18 @@
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.heading div{
+    background-color: rgba(39, 39, 39, 0.274);
+    width: 30vw;
+    height: 1px;
+}
+.heading p{
+    margin: 3vmax;
+    color: rgb(77,77,77);
+    font-size: 2.5vmax;
+    font-family: Calibri, 'sans-serif';
+    text-transform: uppercase;
+}
